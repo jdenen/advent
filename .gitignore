@@ -8,3 +8,4 @@ erl_crash.dump
 *.beam
 advent-*.tar
 /config/*.secret.exs
+/test/inputs/
