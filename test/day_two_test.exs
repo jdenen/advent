@@ -15,4 +15,19 @@ defmodule DayTwoTest do
       assert DayTwo.part_one(input) == 12
     end
   end
+
+  describe "part two" do
+    test "returns the common letters between the correct box IDs" do
+      input = """
+      abcde
+      fghij
+      klmno
+      pqrst
+      fguij
+      axcye
+      wvxyz
+      """
+      assert DayTwo.part_two(input) == "fgij"
+    end
+  end
 end
